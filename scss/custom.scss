@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Germania+One&display=swap');
+@import 'material-color';
+
+// $theme-colors: (
+//   'primary': #e66b1a,
+//   'success': $green-500
+// );
+
+//variables
+$primary: $indigo-500;
+$secondary: $red-700;
+$success: $green-500;
+$info: $blue-500;
+$warning: $yellow-500;
+$danger: $red-500;
+$light: $grey-300;
+$dark: $blue-grey-900;
+
+$link-hover-decoration: none;
+$border-radius: 0;
+$enable-responsive-font-sizes: true;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+/***********************
+generel styles
+************************/
+// html {
+//   scroll-behavior: smooth;
+// }
+
+body {
+  overflow-x: hidden;
+  cursor: url('../cursor.cur'), auto;
+}
+
+/***********************
+nav
+************************/
+.nav-link {
+  color: white !important;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: $secondary !important;
+}
+
+.nav-link.active {
+  color: $secondary !important;
+}
+
+.navbar {
+  border-bottom: $secondary 3px solid;
+  opacity: 0.95;
+  // font-family: 'Germania One', cursive;
+}
+
+/***********************
+home
+************************/
+#home-section {
+  background: url(../img/home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: $light;
+  // font-family: 'Allerta Stencil', sans-serif;
+  // font-family: 'Saira Stencil One', cursive;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.99));
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+  // font-family: 'Germania One', cursive;
+}
+
+strong {
+  color: $secondary;
+}
+
+/***********************
+music
+************************/
+#music-head-section {
+  background: $dark;
+  // background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../img/scratches.jpg);
+  color: $light;
+  padding: 50px;
+  // font-family: 'Germania One', cursive;
+}
+
+#music-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/brickwall.jpg);
+}
+
+/***********************
+video
+************************/
+#video-head-section {
+  background: $dark;
+  color: $light;
+  padding: 50px;
+  // font-family: 'Germania One', cursive;
+}
+
+#video-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/brickwall.jpg);
+}
+
+/***********************
+footer
+************************/
+.main-footer {
+  background: $dark;
+  color: $light;
+  // font-family: 'Germania One', cursive;
+}
+
+.fa-facebook-square:hover {
+  color: #3b5998 !important;
+}
+
+.fa-youtube-square:hover {
+  color: #f00 !important;
+}
+
+.fa-bandcamp:hover {
+  color: #629aa9 !important;
+}
+
+/* Small devices (landscape phones) */
+
+@media (min-width: 1200px) {
+  #home-section .home-inner {
+    padding-top: 350px;
+  }
+}
+
+// @import 'bootstrap';
+@import 'config';
