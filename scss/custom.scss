@@ -149,6 +149,18 @@ footer
   color: #629aa9 !important;
 }
 
+/***********************
+modal
+************************/
+
+.modal {
+  padding-top: 100px;
+}
+
+.fade {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 /* Small devices (landscape phones) */
 
 @media (min-width: 1200px) {
