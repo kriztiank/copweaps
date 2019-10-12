@@ -162,7 +162,8 @@ modal
 }
 
 .field {
-  text-align: center;
+  display: flex;
+  align-items: center;
   padding-bottom: 12px;
 }
 
