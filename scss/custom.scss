@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import 'material-color';
 
@@ -31,7 +31,7 @@ $grid-breakpoints: (
 );
 
 /***********************
-generel styles
+base styles
 ************************/
 // html {
 //   scroll-behavior: smooth;
@@ -74,8 +74,6 @@ home
   background-attachment: fixed;
   min-height: 100vh;
   color: $light;
-  // font-family: 'Allerta Stencil', sans-serif;
-  // font-family: 'Saira Stencil One', cursive;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -101,10 +99,8 @@ music
 ************************/
 #music-head-section {
   background: $dark;
-  // background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../img/scratches.jpg);
   color: $light;
   padding: 50px;
-  // font-family: 'Germania One', cursive;
 }
 
 #music-section {
@@ -118,7 +114,6 @@ video
   background: $dark;
   color: $light;
   padding: 50px;
-  // font-family: 'Germania One', cursive;
 }
 
 #video-section {
@@ -131,7 +126,6 @@ footer
 .main-footer {
   background: $dark;
   color: $light;
-  // font-family: 'Germania One', cursive;
 }
 
 .fa-facebook-square:hover {
