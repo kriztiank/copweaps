@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Germania+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import 'material-color';
 
@@ -62,7 +61,6 @@ nav
 .navbar {
   border-bottom: $secondary 3px solid;
   opacity: 0.95;
-  // font-family: 'Germania One', cursive;
 }
 
 /***********************
@@ -78,8 +76,7 @@ home
   color: $light;
   // font-family: 'Allerta Stencil', sans-serif;
   // font-family: 'Saira Stencil One', cursive;
-  // font-family: 'Germania One', cursive;
-  // font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #home-section .dark-overlay {
