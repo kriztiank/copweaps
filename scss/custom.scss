@@ -1,14 +1,9 @@
-// @import url('https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap');
-// @import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import 'material-color';
 
-// $theme-colors: (
-//   'primary': #e66b1a,
-//   'success': $green-500
-// );
-
-//variables
+// variables
 $primary: $indigo-500;
 $secondary: $red-700;
 $success: $green-500;
@@ -16,7 +11,7 @@ $info: $blue-500;
 $warning: $yellow-500;
 $danger: $red-500;
 $light: $grey-300;
-$dark: $blue-grey-900;
+$dark: $black;
 
 $link-hover-decoration: none;
 $border-radius: 0;
@@ -40,6 +35,19 @@ base styles
 body {
   overflow-x: hidden;
   cursor: url('../cursor.cur'), auto;
+}
+
+/***********************
+typography
+************************/
+// warning!
+strong {
+  color: $secondary;
+}
+// COPWEAPS
+b {
+  font-family: 'Allerta Stencil', sans-serif;
+  // font-family: 'Saira Stencil One', cursive;
 }
 
 /***********************
@@ -88,10 +96,6 @@ home
 
 #home-section .home-inner {
   padding-top: 150px;
-}
-
-strong {
-  color: $secondary;
 }
 
 /***********************
