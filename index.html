@@ -90,7 +90,7 @@
     </section>
 
     <!-- NOISE SECTION -->
-    <section class="main-section" class="py-4">
+    <section class="main-section">
       <div class="container">
         <div class="row justify-content-center">
           <iframe
@@ -151,7 +151,7 @@
     </section>
 
     <!-- FLIX SECTION -->
-    <section class="main-section" class="py-5">
+    <section class="main-section">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 embed-responsive embed-responsive-16by9">
@@ -204,7 +204,7 @@
     </section>
 
     <!-- GIGS SECTION -->
-    <section class="main-section" class="py-5">
+    <section class="main-section">
       <div class="container">
         <div class="row">
           <!-- Link til Reverbnation -->
@@ -314,32 +314,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <script src="./index.js"></script>
-
-    <script>
-      // Get the current year for the copyright
-      $("#year").text(new Date().getFullYear());
-
-      // Init Scrollspy
-      $("body").scrollspy({ target: "#main-nav" });
-
-      // Smooth Scrolling
-      $("#main-nav a").on("click", function(event) {
-        if (this.hash !== "") {
-          event.preventDefault();
-
-          const { hash } = this;
-
-          $("html, body").animate(
-            {
-              scrollTop: $(hash).offset().top
-            },
-            800,
-            function() {
-              window.location.hash = hash;
-            }
-          );
-        }
-      });
-    </script>
   </body>
 </html>

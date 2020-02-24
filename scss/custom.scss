@@ -104,12 +104,13 @@ noise, flix, gigs
 .head-section {
   background: $dark;
   color: $light;
-  padding: 50px;
+  padding: 75px;
 }
 
 .main-section {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url(../img/brickwall.jpg);
+    padding: 75px;
 }
 
 /***********************
