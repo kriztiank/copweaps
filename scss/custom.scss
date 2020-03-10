@@ -4,7 +4,7 @@
 @import "material-color";
 
 // variables
-$primary: $indigo-500;
+$primary: $black;
 $secondary: $red-700;
 $success: $green-500;
 $info: $blue-500;
@@ -51,7 +51,7 @@ strong {
 // COPWEAPS
 b {
   // font-family: "Allerta Stencil", sans-serif;
-  font-family: 'Saira Stencil One', cursive;
+  font-family: "Saira Stencil One", cursive;
 }
 
 /***********************
@@ -114,7 +114,7 @@ noise, flix, gigs
 .main-section {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url(../img/brickwall.jpg);
-    padding: 75px;
+  padding: 75px;
 }
 
 /***********************
@@ -144,6 +144,7 @@ modal
 .modal {
   padding-top: 100px;
 }
+
 
 .fade {
   background-color: rgba(0, 0, 0, 0.8);
